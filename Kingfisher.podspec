@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Kingfisher"
-  s.version      = "5.8.1"
+  s.version      = "5.8.2"
   s.summary      = "A lightweight and pure Swift implemented library for downloading and cacheing image from the web."
 
   s.description  = <<-DESC
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.12"
   s.watchos.deployment_target = "3.0"
 
-  s.source       = { :git => "https://github.com/onevcat/Kingfisher.git", :tag => s.version }
+  s.source       = { :git => "git@code.aliyun.com:szfy_ios/Kingfisher.git", :tag => s.version }
 
   s.default_subspecs = "Core"
   s.pod_target_xcconfig = { 'OTHER_SWIFT_FLAGS' => '-DKingfisherCocoaPods' }
